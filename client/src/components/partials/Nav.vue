@@ -1,7 +1,15 @@
 <template>
   <div class="container-fluid">
-    <b-navbar toggleable="lg" variant="white" type="white">
-      <b-navbar-brand tag="h1" class="mb-0" href="/" >Artisan</b-navbar-brand>
+    <b-navbar
+      toggleable="lg"
+      variant="transparent"
+      type="dark"
+      fixed="top"
+      class="p-5"
+    >
+      <b-navbar-brand tag="h1" class="mb-0 me-5" href="/"
+        >Artisan</b-navbar-brand
+      >
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -25,4 +33,30 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.navbar {
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Parisienne", cursive;
+  font-size: 50px;
+}
+ul li a {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar-brand,
+ul li a {
+  color: #fff;
+}
+
+ul li a:hover,
+ul li a:focus {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#nav-collapse {
+  color: #fff;
+}
+</style>

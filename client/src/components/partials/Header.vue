@@ -1,29 +1,28 @@
 <template>
   <div>
-  <b-jumbotron bg-variant="info" text-variant="white" border-variant="dark">
-    <template #header>BootstrapVue</template>
-
-    <template #lead>
-      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.
-    </template>
-
-    <hr class="my-4">
-
-    <p>
-      It uses utility classes for typography and spacing to space content out within the larger
-      container.
-    </p>
-  </b-jumbotron>
-</div>
+    <b-jumbotron
+      class="header-background"
+      text-variant="white"
+      border-variant="dark"
+    >
+    </b-jumbotron>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
+.header-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../../assets/images/eddy-klaus-BHNxfaeNCTI-unsplash.jpg");
 
+  background-size: cover;
+  height: 100vh;
+}
 </style>
