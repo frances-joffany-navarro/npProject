@@ -11,7 +11,21 @@ In this project the learner intend to use VueJS for frontend, ExpressJS (NodeJS)
 - VueJS, NodeJS (ExpressJS)
 - MySQL
 
-## Graphic Charter - coming soon
+## Graphic Charter
+  ### Typography
+  - #### Logo, Titles
+    [Parisienne](https://fonts.google.com/specimen/Parisienne?query=Parisienne)
+  
+  - #### Paragraphs, Links, Buttons
+    [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
+  ### Colors
+  - Main Colors
+    ![Artisan Main](documentation/AdobeColor-Artisan-Main-Color.jpeg)
+  - Secondary Colors
+  ![Artisan Colorful](documentation/AdobeColor-Artisan-Colorful.jpeg)
+
+  ### Images
+  - [www.unsplash.com](https://unsplash.com/)
 
 ## Mockups - coming soon
 
